@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns; sns.set()
 import glob
 from datetime import datetime, timedelta
-#コメント追加
+
 # EDINET APIと通信
 def get_submitted_summary(params1):
     url = "https://api.edinet-fsa.go.jp/api/v2" + '/documents.json'
